@@ -1,1 +1,15 @@
 Códigos referentes ao módulo de Node.js
+
+Módulo Node.js
+-Criar o diretório: mkdir <diretório>
+-Inicializar o projeto: “yarn init -y”
+-Abrir com o VSCode: code .
+-Adicionar o Express à aplicação: “yarn add express”
+-Adicionar o Nodemon só para desenvolvimento: “yarn add nodemon -D”
+    O Nodemon reinicia o servidor toda vez que o código muda!!!
+-Adicionar script no package.json
+"scripts": {
+    "dev": "nodemon index.js"
+  },
+-Passar a rodar o Nodemon,  em vez do node, através do comando “yarn dev”
+
